@@ -1,4 +1,4 @@
-guardpost
+GuardPost
 =========
 
-Stand-alone authentication and SSO service for web applications and RESTful APIs
+GuardPost is a stand-alone authentication server based on the final version of [OAuth 2.0](https://tools.ietf.org/html/rfc6749).
