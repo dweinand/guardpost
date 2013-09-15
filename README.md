@@ -30,7 +30,7 @@ Usage: guardpost [options]
     -o, --host          Listen on HOST (default: 0.0.0.0)
     -s, --servers       Run SERVERS server workers (default: 0)
     -w, --workers       Run WORKERS background workers (default: 5)
-    -d, --database      Connect to DATABASE (default: redis://127.0.0.1:6379)
+    -d, --database      Connect to DATABASE (default: postgresql://127.0.0.1:5432)
     -h, --help          Display this help message.
 ```
 
