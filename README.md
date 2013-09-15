@@ -15,7 +15,24 @@ or in your `Gemfile`
 Usage
 -----
 
-    guardpost start
+Run the `guardpost` command to start the server.
+
+```sh
+guardpost
+```
+
+It accepts a number of command-line arguments
+
+```sh
+Usage: guardpost [options]
+    -v, --version       Print the version
+    -p, --port          Use PORT (default: 9292)
+    -o, --host          Listen on HOST (default: 0.0.0.0)
+    -s, --servers       Run SERVERS server workers (default: 0)
+    -w, --workers       Run WORKERS background workers (default: 5)
+    -d, --database      Connect to DATABASE (default: redis://127.0.0.1:6379)
+    -h, --help          Display this help message.
+```
 
 
 Authentication Strategies
